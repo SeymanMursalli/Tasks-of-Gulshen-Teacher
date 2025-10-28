@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{   int a , f ,s;
+    cin >> f;
+    s=0;
+    a=2 ;
+    while ( a <= f/2) { if ( f%a==0 ) { s=s+1;}
+    a=a+1;
+    
+    }
+    if ( s==0) { cout << "sade ededir= " << f << endl; }
+    else { cout << "sade deyil=" << f << endl;}
+    return 0;
+}
